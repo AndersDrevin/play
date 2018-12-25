@@ -1,19 +1,22 @@
 import path from 'path';
 import express from 'express';
+import api from './api.js';
 
 const staticPath = path.resolve(__dirname, '../dist/static');
 const indexHtmlPath = path.resolve(staticPath, 'index.html');
 
 const app = express();
 
-app.get(['/static', '/static/index.html'], (req, res) => {
+app.use('/api', api);
+
+app.get('/index.html', (req, res) => {
   res.redirect('/');
 });
 
-app.use('/static', express.static(staticPath));
+app.use('/', express.static(staticPath));
 
 app.get('/', (req, res) => {
   res.sendFile(indexHtmlPath);
 });
 
-app.listen(1337);
+app.listen(31337);

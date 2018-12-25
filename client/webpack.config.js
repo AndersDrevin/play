@@ -7,7 +7,6 @@ module.exports = {
   output: {
     filename: 'client.js',
     path: path.resolve(__dirname, '../dist/static'),
-    publicPath: path.resolve(__dirname, '../dist/static'),
   },
   mode: 'development',
   module: {

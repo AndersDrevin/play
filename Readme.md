@@ -10,18 +10,18 @@ The other solution is cloning it and updating the url to point to your own repo
 - Create a empty repository on github
 - Open a terminal and go to desired folder
 ```bash
-$ git clone https://github.com/zyrica/boilerplate $REPOSITORYNAME$
-$ cd $REPOSITORYNAME$
-$ git remote set-url origin https://github.com/$USERNAME$/$REPOSITORYNAME$
-$ git push
+git clone https://github.com/zyrica/boilerplate $REPOSITORYNAME$
+cd $REPOSITORYNAME$
+git remote set-url origin https://github.com/$USERNAME$/$REPOSITORYNAME$
+git push
 ```
 
 ## Local development with HMR
 
 To start a dev server
 ```bash
-$ npm install
-$ npm run dev
+npm install
+npm run dev
 ```
 
 Now a dev server should be running on http://localhost:1337

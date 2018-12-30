@@ -2,6 +2,8 @@ import path from 'path';
 import express from 'express';
 import api from './api.js';
 
+const port = process.env.PORT || 31337;
+
 const staticPath = path.resolve(__dirname, '../dist/static');
 const indexHtmlPath = path.resolve(staticPath, 'index.html');
 
@@ -15,4 +17,4 @@ app.get('*', (req, res) => {
   res.sendFile(indexHtmlPath);
 });
 
-app.listen(31337);
+app.listen(port);

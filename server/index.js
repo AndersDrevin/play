@@ -9,13 +9,9 @@ const app = express();
 
 app.use('/api', api);
 
-app.get('/index.html', (req, res) => {
-  res.redirect('/');
-});
-
 app.use('/', express.static(staticPath));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(indexHtmlPath);
 });
 

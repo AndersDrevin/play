@@ -8,12 +8,6 @@
     "dev:server": "nodemon --exec babel-node server",
     "dev:client": "vue-cli-service serve"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
-  "postcss": {},
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",

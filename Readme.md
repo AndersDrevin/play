@@ -1,5 +1,5 @@
 # Boilerplate
-This is a boilerplate for quickly getting started with a [node express server](https://expressjs.com/) and [vue client](https://vuejs.org/) with automatic deploy on [Heroku](https://heroku.com/).
+This is a boilerplate for quickly getting started with a [node express server](https://expressjs.com/), [vue client](https://vuejs.org/) and automatic deploy from [Github](https://github.com/) to [Heroku](https://heroku.com/).
 
 ## Setting up a GIT repository
 There are two suggested methods.
@@ -31,10 +31,10 @@ To develop the [VUE](https://vuejs.org/) application just edit the `/client/App.
 To develop the [Express](https://expressjs.com/) server head to `/server/api.js` that is reachable from http://localhost:1337/api and will restart every time you save your changes.
 
 ## Heroku deploy
-- Log into your heroku account in your browser
-- Create a new app from your dashboard
-- In the settings for your app go to `deploy` and choose `github`
-  - Specify your github acoount and `connect` to your repository
+- Log into your heroku account in a browser
+- Create a new app from the dashboard
+- In the settings for your app go to `Deploy` and choose `Github`
+  - Specify your github acoount and `Connect` to your repository
   - Enable `Automatic deploys` in the section bellow
   - Do an initial manual deploy by pressing `Deploy branch` the last section.
 - Press `Open app` button in the header to verify the deployment

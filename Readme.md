@@ -33,10 +33,8 @@ To develop the [Express](https://expressjs.com/) server head to `/server/api.js`
 ## Heroku deploy
 - Log into your heroku account in your browser
 - Create a new app from your dashboard
-- In the settings for your app choose deploy -> github
-  - Specify your github acoount and connect to your repository
-  - Enable Automatic deploys
-  - Do an initial manual deploy by pressing "Deploy branch"
-- Press  "Open app" button in the header
-
-If everything worked you should now have a https page saying "Hello vue"
+- In the settings for your app go to `deploy` and choose `github`
+  - Specify your github acoount and `connect` to your repository
+  - Enable `Automatic deploys` in the section bellow
+  - Do an initial manual deploy by pressing `Deploy branch` the last section.
+- Press `Open app` button in the header to verify the deployment

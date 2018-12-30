@@ -2,7 +2,9 @@ const path = require('path');
 
 module.exports = {
   pages: {
-    index: path.resolve(__dirname, 'client/index.js'),
+    index: {
+      entry: path.resolve(__dirname, 'client/index.js'),
+    },
   },
   outputDir: path.resolve(__dirname, 'dist/static'),
   devServer: {

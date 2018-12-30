@@ -1,14 +1,12 @@
 # Boilerplate
 This is a boilerplate for quickly getting started with a node express server and vue client with automatic deploy on Heroku.
 
-## Setting up GIT
-First we must set up your own git repo.
-
+## Setting up a GIT repository
 There are two suggested methods for this.
 
 The easiest one is to just fork this repo.
 
-The other solution is cloning it and updating the url to point to your own repo:
+The other solution is cloning it and updating the url to point to your own repo
 - Create a empty repository on github
 - git clone https://github.com/zyrica/boilerplate $REPOSITORYNAME$
 - cd $REPOSITORYNAME$

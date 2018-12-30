@@ -6,7 +6,8 @@
     "build:client": "vue-cli-service build",
     "dev": "npm run dev:server | npm run dev:client",
     "dev:server": "nodemon --exec babel-node server",
-    "dev:client": "vue-cli-service serve"
+    "dev:client": "vue-cli-service serve",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

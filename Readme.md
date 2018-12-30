@@ -1,6 +1,12 @@
 # Boilerplate
 This is a boilerplate for quickly getting started with a [node express server](https://expressjs.com/), [vue client](https://vuejs.org/) and automatic deploy from [Github](https://github.com/) to [Heroku](https://heroku.com/).
 
+Prerequisite
+- [Node](https://nodejs.org/en/)
+- [Git](https://git-scm.com/downloads)
+- [Github Account](https://www.heroku.com/)
+- [Heroku Account](https://github.com/)
+
 ## Setting up a GIT repository
 There are two suggested methods.
 

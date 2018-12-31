@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <h1>Hello Vue</h1>
+    <h1>Hello Vue! (Anders was here)</h1>
 </template>
 
 <style scoped>
